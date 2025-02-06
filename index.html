@@ -8,43 +8,70 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
+            background-color: #00203F;
+            color: white;
             padding: 20px;
         }
         .container {
-            max-width: 400px;
+            max-width: 500px;
             margin: auto;
         }
-        .btn {
-            display: block;
+        .logo {
             width: 100%;
-            padding: 12px;
-            margin: 10px 0;
-            text-decoration: none;
-            color: white;
-            background-color: #007BFF;
-            border-radius: 5px;
-            font-size: 16px;
+            max-width: 200px;
+            margin-bottom: 20px;
         }
-        .btn:hover {
-            background-color: #0056b3;
+        h2 {
+            color: #C4FB00;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: #C4FB00;
+            color: black;
+            font-weight: bold;
+            border-radius: 30px;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        .btn img {
+            width: 20px;
+            margin-right: 10px;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h2>Contato Seguro - SuperVia</h2>
-        <p>Acesse os recursos abaixo:</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/SuperVia.svg/2560px-SuperVia.svg.png" class="logo" alt="SuperVia Logo">
+        <h2>TEM ALGO A RELATAR?</h2>
+        <p>Escolha um de nossos canais de atendimento seguro e confidencial para registrar sua denúncia e garantir que sua voz seja ouvida.</p>
 
-        <!-- Link para o site -->
-        <a href="https://www.contatoseguro.com.br/pt/supervia/relato_introducao" class="btn" target="_blank">🌐 Acessar o Site</a>
+        <a href="https://www.linhaeticasupervia.com.br" class="btn" target="_blank">
+            🌐 www.linhaeticasupervia.com.br
+        </a>
 
-        <!-- Número 0800 para ligação -->
-        <a href="tel:0800591028945" class="btn">📞 Ligar para 0800 591 0289 45</a>
+        <a href="tel:08005910289845" class="btn">
+            📞 0800 591 02898 45
+        </a>
 
-        <!-- Links para baixar os apps -->
-        <a href="https://play.google.com/store/apps/details?id=br.com.contatoseguro.appoficial" class="btn" target="_blank">📲 Baixar no Google Play</a>
-        <a href="https://apps.apple.com/br/app/contato-seguro/id945536717" class="btn" target="_blank">🍏 Baixar na App Store</a>
+        <a href="https://play.google.com/store/apps/details?id=br.com.contatoseguro.appoficial" class="btn" target="_blank">
+            📲 Baixe o aplicativo Contato Seguro
+        </a>
+
+        <a href="https://apps.apple.com/br/app/contato-seguro/id945536717" class="btn" target="_blank">
+            🍏 Baixe o aplicativo Contato Seguro
+        </a>
     </div>
 
 </body>
